@@ -14,5 +14,5 @@ The easiest way to keep track of the project is through subscription to the podc
 Questions and comments are welcome, especially suggestions for upcoming shows. 
 
 ## Who maintains and contributes to the project
-Mark Miller, VP, Community and Outreach
+Mark Miller, VP, Community and Outreach<br />
 Executive Director, Linux Podcast
