@@ -4,7 +4,7 @@ The Linux Foundation Podcast - Interviews with LF Project Leads and Open Source 
 
 https://soundcloud.com/owasp-podcast/fast-times-at-sbom-high-with-wendy-nather-and-matt-tesauro?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1237986250&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/"></iframe>
 
 ## What the project does
 
