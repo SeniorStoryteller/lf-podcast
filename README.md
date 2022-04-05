@@ -2,10 +2,6 @@
 
 The Linux Foundation Podcast - Interviews with LF Project Leads and Open Source Advocates
 
-https://soundcloud.com/owasp-podcast/fast-times-at-sbom-high-with-wendy-nather-and-matt-tesauro?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
-
-<iframe></iframe>
-
 ## What the project does
 
 The Linux Podcast Project is a public podcast, highlight projects and people using open source. In addition, the podcast will regularly feature updates on project from project leads and contributors
