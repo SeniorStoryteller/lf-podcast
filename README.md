@@ -26,3 +26,16 @@ Questions and comments are welcome, especially suggestions for upcoming shows.
 
 Mark Miller, VP, Community and Outreach<br />
 Executive Director, Linux Podcast
+
+### Spotify
+[![Spotify](https://spotify-github-readme.vercel.app/api/spotify)](https://open.spotify.com/collection/tracks)
+
+### SoundCloud
+
+[The OWASP Podcast Series](https://soundcloud.com/owasp-podcast/)
+
+| Episode | Description |
+| ------- | ----------- |
+| [![Fast Times at SBOM High with Wendy Nather and Matt Tesauro](https://i1.sndcdn.com/artworks-w7oWbUxpTRdyNtXX-KOVXDw-t67x67.jpg)](https://soundcloud.com/owasp-podcast/fast-times-at-sbom-high-with-wendy-nather-and-matt-tesauro) | [Fast Times at SBOM High with Wendy Nather and Matt Tesauro](https://soundcloud.com/owasp-podcast/fast-times-at-sbom-high-with-wendy-nather-and-matt-tesauro) |
+| [![SAFe or UnSAFe at Any Speed](https://i1.sndcdn.com/artworks-YZmEbDMcCChMjj6A-IezvvA-t67x67.jpg)](https://soundcloud.com/owasp-podcast/safe-of-unsafe-at-any-speed) | [SAFe or UnSAFe at Any Speed](https://soundcloud.com/owasp-podcast/safe-of-unsafe-at-any-speed) |
+| [![Tanya Janca - She Hacks Purple](https://i1.sndcdn.com/artworks-4gWbGDUEBZizgpQ9-YIcfzg-t67x67.jpg)](https://soundcloud.com/owasp-podcast/tanya-janca) | [Tanya Janca - She Hacks Purple](https://soundcloud.com/owasp-podcast/tanya-janca) |
