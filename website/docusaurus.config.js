@@ -2,20 +2,20 @@
 
 
 // Replace 'project-blueprint' with {project name}
-const projectName = 'Project Blueprint'
+const projectName = 'The Linux Foundation Podcast Project'
 // Replace 'project-blueprint' with {project name}
-const projectSlug = 'project-blueprint'
+const projectSlug = 'linux-foundation-podcast-project'
 // Replace 'FINOS' with {name of copyright owner}
-const copyrightOwner = 'FINOS'
+const copyrightOwner = 'The Linux Foundation'
 
 module.exports = {
-  title: `FINOS ${projectName}`,
-  tagline: `FINOS ${projectName}`, 
+  title: `${projectName}`,
+  tagline: `${projectName}`, 
   url: 'https://finos.org',
   baseUrl: '/',
   favicon: 'img/favicon/favicon-finos.ico',
-  projectName: `FINOS ${projectName}`,
-  organizationName: 'FINOS',
+  projectName: `${projectName}`,
+  organizationName: `${copyrightOwner}`,
   customFields: {
     repoUrl: `https://github.com/finos/${projectSlug}`,
   },
@@ -29,11 +29,10 @@ module.exports = {
         src: 'img/favicon/favicon-finos.ico',
       },
       items: [
-        {to: 'docs/home', label: 'Docs', position: 'right'},
-        {to: 'docs/roadmap', label: 'Roadmap', position: 'right'},
-        {to: 'docs/team', label: 'Team', position: 'right'},
+        {to: 'docs/readme', label: 'Podcasts', position: 'right'},
+        {to: 'docs/podcasts/podcast-template', label: 'Podcast Template', position: 'right'},
         {
-          href: 'https://github.com/finos/',
+          href: 'https://github.com/SeniorStoryteller/lf-podcast',
           label: 'GitHub',
           position: 'right',
         }
