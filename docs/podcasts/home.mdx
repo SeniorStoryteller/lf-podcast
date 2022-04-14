@@ -3,4 +3,9 @@ id: podcast-template
 title: Podcast Template
 ---
 
-Welcome to {#projectName} !
+import Soundcloud from "@site/src/components/soundcloud";
+import { podcasts } from "@site/src/components/podcasts";
+
+<Soundcloud scsrc={podcasts.podcast1} />
+<Soundcloud scsrc={podcasts.podcast2} />
+<Soundcloud scsrc={podcasts.podcast3} />
