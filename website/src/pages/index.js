@@ -43,21 +43,23 @@ function Home() {
         </div>
       </header>
       <main>
-        <section className={styles.features}>
-          <div className="container">
-            <div className="row">
-              {podcasts.map((props, idx) => (
-                  <FeaturePodcast key={idx} {...props} />
-              ))}
-            </div>
-          </div>
-        </section>
-        {features && features.length && (
+      {features && features.length && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+        {podcasts && podcasts.length && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {podcasts.map((props, idx) => (
+                    <FeaturePodcast key={idx} {...props} />
                 ))}
               </div>
             </div>
