@@ -8,6 +8,8 @@ import Feature from '../components/feature';
 import { features } from '../components/feature-config';
 import FeaturesTwo from '../components/featuresTwo';
 import { featuresTwo } from '../components/featuresTwo-config';
+import Soundcloud from '../components/soundcloud';
+import { podcasts } from "../components/podcasts";
 
 function Home() {
   const context = useDocusaurusContext();
@@ -41,6 +43,21 @@ function Home() {
         </div>
       </header>
       <main>
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+              <div className={classnames('text--center col col--4 padding')}>
+                <Soundcloud scsrc={podcasts.podcast1} />
+              </div>
+              <div className={classnames('text--center col col--4 padding')}>
+                <Soundcloud scsrc={podcasts.podcast2} />
+                </div>
+              <div className={classnames('text--center col col--4 padding')}>
+                <Soundcloud scsrc={podcasts.podcast3} />
+              </div>
+            </div>
+          </div>
+        </section>
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
