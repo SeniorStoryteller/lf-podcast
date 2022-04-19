@@ -9,6 +9,7 @@ import { features } from '../components/feature-config';
 import FeaturesTwo from '../components/featuresTwo';
 import { featuresTwo } from '../components/featuresTwo-config';
 import Soundcloud from '../components/soundcloud';
+import SpotifyCompact from '../components/spotifyCompact';
 import { podcasts } from "../components/podcasts";
 
 function Home() {
@@ -53,7 +54,7 @@ function Home() {
                 <Soundcloud scsrc={podcasts.podcast2} />
                 </div>
               <div className={classnames('text--center col col--4 padding')}>
-                <Soundcloud scsrc={podcasts.podcast3} />
+                <SpotifyCompact scsrc={podcasts.podcast4} /> 
               </div>
             </div>
           </div>
