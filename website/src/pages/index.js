@@ -48,13 +48,13 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className={classnames('text--center col col--4 padding')}>
-                <Soundcloud scsrc={podcasts.podcast1} />
+                <Soundcloud scsrc={podcasts.podcast1.src} />
               </div>
               <div className={classnames('text--center col col--4 padding')}>
-                <Soundcloud scsrc={podcasts.podcast2} />
+                <Soundcloud scsrc={podcasts.podcast2.src} />
                 </div>
               <div className={classnames('text--center col col--4 padding')}>
-                <SpotifyCompact scsrc={podcasts.podcast4} /> 
+                <SpotifyCompact scsrc={podcasts.podcast4.src} /> 
               </div>
             </div>
           </div>

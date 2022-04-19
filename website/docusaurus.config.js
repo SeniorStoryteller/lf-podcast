@@ -23,7 +23,7 @@ module.exports = {
   stylesheets: ['https://fonts.googleapis.com/css?family=Overpass:400,400i,700'],
   themeConfig: {
     navbar: {
-      title: `FINOS ${projectName}`,
+      title: `${projectName}`,
       logo: {
         alt: 'FINOS Logo',
         src: 'img/favicon/favicon-finos.ico',
