@@ -8,9 +8,8 @@ import Feature from '../components/feature';
 import { features } from '../components/feature-config';
 import FeaturesTwo from '../components/featuresTwo';
 import { featuresTwo } from '../components/featuresTwo-config';
-import Soundcloud from '../components/soundcloud';
-import SpotifyCompact from '../components/spotifyCompact';
 import { podcasts } from "../components/podcasts";
+import FeaturePodcast from "../components/featurePodcast";
 
 function Home() {
   const context = useDocusaurusContext();
@@ -47,15 +46,9 @@ function Home() {
         <section className={styles.features}>
           <div className="container">
             <div className="row">
-              <div className={classnames('text--center col col--4 padding')}>
-                <Soundcloud scsrc={podcasts[0].src} />
-              </div>
-              <div className={classnames('text--center col col--4 padding')}>
-                <Soundcloud scsrc={podcasts[1].src} />
-                </div>
-              <div className={classnames('text--center col col--4 padding')}>
-                <SpotifyCompact scsrc={podcasts[3].src} /> 
-              </div>
+              {podcasts.map((props, idx) => (
+                  <FeaturePodcast key={idx} {...props} />
+              ))}
             </div>
           </div>
         </section>
