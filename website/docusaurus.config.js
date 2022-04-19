@@ -29,8 +29,9 @@ module.exports = {
         src: 'img/favicon/favicon-finos.ico',
       },
       items: [
-        {to: 'docs/readme', label: 'Podcasts', position: 'right'},
-        {to: 'docs/podcasts/podcast-template', label: 'Podcast Template', position: 'right'},
+        {to: 'docs/podcasts-intro', label: 'Podcasts', position: 'right'},
+        {to: 'docs/podcasts/podcast-index', label: 'Latest Podcasts', position: 'right'},
+        {to: 'docs/templates/podcast-template', label: 'Podcast Template', position: 'right'},
         {
           href: 'https://github.com/SeniorStoryteller/lf-podcast',
           label: 'GitHub',

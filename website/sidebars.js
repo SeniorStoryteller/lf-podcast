@@ -1,5 +1,6 @@
 module.exports = {
   mainSidebar: {
-    'Main Menu': ["readme"]
+    "LF Podcasts": ["podcasts-intro", "podcasts/podcast-index"],
+    "Help": ["templates/podcast-template"]
   },
 }
