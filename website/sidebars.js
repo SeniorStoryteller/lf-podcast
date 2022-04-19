@@ -1,5 +1,6 @@
 module.exports = {
   mainSidebar: {
-    'Main Menu': ["home", "team", "roadmap", "about-finos"]
+    "LF Podcasts": ["podcasts-intro", "podcasts/podcast-index"],
+    "Adding New Podcasts": ["templates/podcast-template"]
   },
 }
