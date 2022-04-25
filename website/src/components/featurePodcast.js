@@ -4,6 +4,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from '../pages/styles.module.css';
 import Soundcloud from '../components/soundcloud';
 import SpotifyCompact from '../components/spotifyCompact';
+import VideoPlayer from '../components/videoPlayer';
 
 export default function FeaturePodcast(props) {
 
@@ -23,6 +24,9 @@ export default function FeaturePodcast(props) {
             }
             {props.type === "spotify" &&
                 <SpotifyCompact scsrc={props.src} />
+            } 
+            {props.type === "video" &&
+                <VideoPlayer scsrc={props.src} />
             } 
             {defined(props.podcastUrl) && defined(props.podcast) && props.podcast !== '' &&
                 <a href={props.podcastUrl}>{props.podcast}</a>

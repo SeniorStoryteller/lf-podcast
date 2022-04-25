@@ -36,5 +36,14 @@ export const podcasts = [
         podcast : "FINOS Open Source in Finance Podcast",
         podcastUrl : "https://open.spotify.com/show/431XdfX2fBdCUsopwh8td3",
         featured : true
+    },
+    {
+        title : "Test Video",
+        src : "https://user-images.githubusercontent.com/6029572/159551146-8d8ea8e4-7c2b-4318-a46f-3c0a20c0b788.mp4",
+        type : "video",
+        description : "Test video",
+        podcast : "Test Video",
+        podcastUrl : "",
+        featured : true
     }
 ];
