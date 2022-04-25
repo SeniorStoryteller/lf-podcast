@@ -36,7 +36,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={'https://github.com/finos'}>
+              to={'https://github.com/mcleo-d/lf-podcast/'}>
               GITHUB
             </Link>
           </div>
