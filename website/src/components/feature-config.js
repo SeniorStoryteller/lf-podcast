@@ -3,7 +3,7 @@ import React from 'react';
 export const features = [
     {
         title: <>Feature 1</>,
-        imageUrl: '/img/finos/finos-blue.png',
+        imageUrl: '/img/1200px-lf-logo.png',
         description: (
             <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
         ),
@@ -22,7 +22,7 @@ export const features = [
     },
     {
         title: <>Feature 2</>,
-        imageUrl: '/img/finos/finos-blue.png',
+        imageUrl: '/img/1200px-lf-logo.png',
         description: (
             <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
         ),
@@ -41,7 +41,7 @@ export const features = [
     },
     {
         title: <>Feature 3</>,
-        imageUrl: '/img/finos/finos-blue.png',
+        imageUrl: '/img/1200px-lf-logo.png',
         description: (
             <>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</>
         ),
