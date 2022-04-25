@@ -13,7 +13,7 @@ module.exports = {
   tagline: `${projectName}`, 
   url: 'https://finos.org',
   baseUrl: '/',
-  favicon: 'img/favicon/favicon-finos.ico',
+  favicon: 'img/favicon/lf_logo.svg',
   projectName: `${projectName}`,
   organizationName: `${copyrightOwner}`,
   customFields: {
@@ -25,8 +25,8 @@ module.exports = {
     navbar: {
       title: `${projectName}`,
       logo: {
-        alt: 'FINOS Logo',
-        src: 'img/favicon/favicon-finos.ico',
+        alt: 'The Linux Foundation',
+        src: 'img/favicon/lf_logo.svg',
       },
       items: [
         {to: 'docs/podcasts-intro', label: 'Podcasts', position: 'right'},
@@ -42,9 +42,9 @@ module.exports = {
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} ${projectName} - ${copyrightOwner}`,
       logo: {
-        alt: 'FINOS Logo',
-        src: 'img/favicon/favicon-finos.ico',
-        href: 'https://finos.org'
+        alt: 'The Linux Foundation',
+        src: 'img/favicon/lf_logo.svg',
+        href: 'https://linuxfoundation.org/'
       },
       links: [
         {
