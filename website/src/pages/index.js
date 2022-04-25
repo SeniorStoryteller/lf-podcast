@@ -43,19 +43,8 @@ function Home() {
         </div>
       </header>
       <main>
-      {features && features.length && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-        {podcasts && podcasts.length && (
-          <section className={styles.features}>
+      {podcasts && podcasts.length && (
+          <section className={styles.podcasts}>
             <div className="container">
               <div className="row">
                 {podcasts.map((props, idx) => (
@@ -65,15 +54,12 @@ function Home() {
             </div>
           </section>
         )}
-        {featuresTwo && featuresTwo.length && (
-          <section className={styles.members}>
+      {features && features.length && (
+          <section className={styles.features}>
             <div className="container">
-              <div className="row row--center">
-                <h2></h2>
-              </div>
               <div className="row">
-                {featuresTwo.map((props, idx) => (
-                  <FeaturesTwo key={idx} {...props} />
+                {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
                 ))}
               </div>
             </div>
