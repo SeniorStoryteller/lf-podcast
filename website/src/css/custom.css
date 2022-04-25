@@ -96,3 +96,15 @@ body{
 .navbar .navbar__title {
   display: none;
 }
+
+.footer__bottom {
+  background-color: #ffffff;
+}
+
+.footer__copyright {
+  color: var(--ifm-font-color-base);
+}
+
+.footer__bottom a {
+  opacity:1.0;
+}
