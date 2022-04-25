@@ -3,6 +3,7 @@ id: podcast-index
 title: Podcast Lists
 ---
 
+import ReactPlayer from "react-player";
 import Soundcloud from "@site/src/components/soundcloud";
 import Spotify from "@site/src/components/spotify";
 import { podcasts } from "@site/src/components/podcasts";
@@ -11,3 +12,9 @@ import { podcasts } from "@site/src/components/podcasts";
 <Soundcloud scsrc={podcasts[1].src} />
 <Soundcloud scsrc={podcasts[2].src} />
 <Spotify scsrc={podcasts[3].src} />
+
+<ReactPlayer
+  controls="true"
+  url="https://user-images.githubusercontent.com/6029572/159551146-8d8ea8e4-7c2b-4318-a46f-3c0a20c0b788.mp4"
+/>
+https://user-images.githubusercontent.com/6029572/159551146-8d8ea8e4-7c2b-4318-a46f-3c0a20c0b788.mp4
