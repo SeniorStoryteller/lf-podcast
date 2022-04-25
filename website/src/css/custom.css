@@ -92,3 +92,7 @@ body{
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
+.navbar .navbar__title {
+  display: none;
+}
