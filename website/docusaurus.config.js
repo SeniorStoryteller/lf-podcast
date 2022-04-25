@@ -13,7 +13,7 @@ module.exports = {
   tagline: `${projectName}`, 
   url: 'https://finos.org',
   baseUrl: '/',
-  favicon: 'img/favicon/lf_logo.svg',
+  favicon: 'img/favicon/cropped-favicon-80x80.png',
   projectName: `${projectName}`,
   organizationName: `${copyrightOwner}`,
   customFields: {
