@@ -16,8 +16,8 @@
   --ifm-color-primary-lightest: #00aef8;
   --ifm-font-color-base: #1C1E21;
   --ifm-heading-color: #19B6CC;
-  --ifm-navbar-background-color: #0086BF;
-  --ifm-navbar-link-color: #FFFFFF;
+  --ifm-navbar-background-color: #FFFFFF;
+  --ifm-navbar-link-color: #333333;
   --ifm-navbar-shadow: 0;
   --ifm-footer-background-color: #0086BF;
   --ifm-footer-title-color: #ffffff;
