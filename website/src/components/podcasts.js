@@ -39,7 +39,7 @@ export const podcasts = [
     },
     {
         title : "James McLeod's Test Video",
-        src : "https://user-images.githubusercontent.com/6029572/159551146-8d8ea8e4-7c2b-4318-a46f-3c0a20c0b788.mp4",
+        src : "https://user-images.githubusercontent.com/6029572/165135804-8e168c78-fa23-4a14-9e8e-a8cb535f5553.mp4",
         type : "video",
         description : "James' test for The Linux Foundation All Hands",
         podcast : "Test Video",
