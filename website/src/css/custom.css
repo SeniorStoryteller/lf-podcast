@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #00b5e2;
+  --ifm-color-primary: rgb(0, 153, 204);
   --ifm-color-primary-dark: #0079ac;
   --ifm-color-primary-darker: #0072a2;
   --ifm-color-primary-darkest: #005e86;
@@ -15,11 +15,11 @@
   --ifm-color-primary-lighter: #009adc;
   --ifm-color-primary-lightest: #00aef8;
   --ifm-font-color-base: #333333;
-  --ifm-heading-color: #19B6CC;
+  --ifm-heading-color: #333333;
   --ifm-navbar-background-color: #FFFFFF;
   --ifm-navbar-link-color: #333333;
   --ifm-navbar-shadow: 0;
-  --ifm-footer-background-color: #0086BF;
+  --ifm-footer-background-color: rgb(0, 51, 102);
   --ifm-footer-title-color: #ffffff;
   --ifm-footer-color: #ffffff;
   --ifm-footer-link-color: #ffffff;
