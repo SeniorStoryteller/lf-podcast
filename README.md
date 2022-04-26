@@ -1,4 +1,4 @@
-# The Linux Foundation Podcast Project
+# Linux Foundation Community Podcasts
 
 The Linux Foundation Podcast - Interviews with LF Project Leads and Open Source Advocates
 
