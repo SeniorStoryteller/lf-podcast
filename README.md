@@ -6,15 +6,11 @@ The Linux Foundation Podcast - Interviews with LF Project Leads and Open Source 
 
 Listen to the latest Linux Foundation [OWASP Podcast Series](https://soundcloud.com/owasp-podcast/) where Wendy Nather and Matt Tesauro explore [Fast Times at SBOM High](https://soundcloud.com/owasp-podcast/fast-times-at-sbom-high-with-wendy-nather-and-matt-tesauro), alongside Tanya Janca as [She Hacks Purple](https://soundcloud.com/owasp-podcast/tanya-janca). Find the lastest [OWASP Podcast Series](https://soundcloud.com/owasp-podcast/) below.
 
-| Episode | Description | Play Podcast |
-| ------- | ----------- | :----------: |
-| [![Fast Times at SBOM High with Wendy Nather and Matt Tesauro](https://i1.sndcdn.com/artworks-w7oWbUxpTRdyNtXX-KOVXDw-t67x67.jpg)](https://soundcloud.com/owasp-podcast/fast-times-at-sbom-high-with-wendy-nather-and-matt-tesauro) | [Fast Times at SBOM High with Wendy Nather and Matt Tesauro](https://soundcloud.com/owasp-podcast/fast-times-at-sbom-high-with-wendy-nather-and-matt-tesauro) | [>>](https://soundcloud.com/owasp-podcast/fast-times-at-sbom-high-with-wendy-nather-and-matt-tesauro) |
-| [![SAFe or UnSAFe at Any Speed](https://i1.sndcdn.com/artworks-YZmEbDMcCChMjj6A-IezvvA-t67x67.jpg)](https://soundcloud.com/owasp-podcast/safe-of-unsafe-at-any-speed) | [SAFe or UnSAFe at Any Speed](https://soundcloud.com/owasp-podcast/safe-of-unsafe-at-any-speed) | [>>](https://soundcloud.com/owasp-podcast/safe-of-unsafe-at-any-speed) |
-| [![Tanya Janca - She Hacks Purple](https://i1.sndcdn.com/artworks-4gWbGDUEBZizgpQ9-YIcfzg-t67x67.jpg)](https://soundcloud.com/owasp-podcast/tanya-janca) | [Tanya Janca - She Hacks Purple](https://soundcloud.com/owasp-podcast/tanya-janca) | [>>](https://soundcloud.com/owasp-podcast/tanya-janca) |
-
-### Latest Linux Foundation Podcasts on Spotify
-
-[![Spotify](https://spotify-github-readme.vercel.app/api/spotify)](https://open.spotify.com/collection/tracks)
+| Episode                                                                                                                                                                                                                             | Title                                                                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| [![Fast Times at SBOM High with Wendy Nather and Matt Tesauro](https://i1.sndcdn.com/artworks-w7oWbUxpTRdyNtXX-KOVXDw-t67x67.jpg)](https://soundcloud.com/owasp-podcast/fast-times-at-sbom-high-with-wendy-nather-and-matt-tesauro) | [Fast Times at SBOM High with Wendy Nather and Matt Tesauro](docs/podcasts/fast-times-at-sbom-high.mdx) |
+| [![SAFe or UnSAFe at Any Speed](https://i1.sndcdn.com/artworks-YZmEbDMcCChMjj6A-IezvvA-t67x67.jpg)](https://soundcloud.com/owasp-podcast/safe-of-unsafe-at-any-speed)                                                               | [SAFe or UnSAFe at Any Speed](docs/podcasts/fast-times-at-sbom-high.mdx)                                |
+| [![Tanya Janca - She Hacks Purple](https://i1.sndcdn.com/artworks-4gWbGDUEBZizgpQ9-YIcfzg-t67x67.jpg)](https://soundcloud.com/owasp-podcast/tanya-janca)                                                                            | [Tanya Janca - She Hacks Purple](https://soundcloud.com/owasp-podcast/tanya-janca)                      |
 
 ## What the project does
 
