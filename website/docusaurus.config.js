@@ -10,7 +10,7 @@ const copyrightOwner = 'The Linux Foundation'
 
 module.exports = {
   title: `${projectName}`,
-  tagline: `${projectName}`, 
+  tagline: `${projectName}`,
   url: 'https://finos.org',
   baseUrl: '/',
   favicon: 'img/favicon/cropped-favicon-80x80.png',
@@ -18,6 +18,8 @@ module.exports = {
   organizationName: `${copyrightOwner}`,
   customFields: {
     repoUrl: `https://github.com/finos/${projectSlug}`,
+    ctaButton: 'CONTRIBUTE YOUR PODCAST EPISODE', 
+    ctaHeader: 'Become part of the Linux Foundation network. Add your episode.'
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   stylesheets: ['https://fonts.googleapis.com/css?family=Overpass:400,400i,700'],

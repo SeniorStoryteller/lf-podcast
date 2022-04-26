@@ -21,7 +21,7 @@ function Home() {
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className={classnames('hero--subtitle')}>{siteConfig.tagline}</p>
+          <p className={classnames('hero--subtitle')}>{siteConfig.customFields.ctaHeader}</p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
@@ -29,15 +29,7 @@ function Home() {
                 styles.getStarted
               )}
               to={'https://linuxfoundation.org/'}>
-              GET STARTED
-            </Link>
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted
-              )}
-              to={'https://github.com/mcleo-d/lf-podcast/'}>
-              GITHUB
+              {siteConfig.customFields.ctaButton}
             </Link>
           </div>
         </div>
