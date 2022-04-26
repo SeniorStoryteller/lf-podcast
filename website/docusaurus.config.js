@@ -31,8 +31,8 @@ module.exports = {
         src: 'img/favicon/lf_logo.svg',
       },
       items: [
-        {to: 'docs/podcasts-intro', label: 'Podcasts', position: 'right'},
-        {to: 'docs/podcasts/podcast-index', label: 'Latest Podcasts', position: 'right'},
+        {to: 'docs/podcasts-intro', label: 'Introduction', position: 'right'},
+        {to: 'docs/podcasts/fast-times-at-sbom-high', label: 'Podcasts', position: 'right'},
         {to: 'docs/templates/podcast-template', label: 'Podcast Template', position: 'right'},
         {
           href: 'https://github.com/SeniorStoryteller/lf-podcast',
