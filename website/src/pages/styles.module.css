@@ -11,6 +11,7 @@
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(/img/dandelion.png);
 }
 
 @media screen and (max-width: 966px) {
@@ -30,6 +31,14 @@
 }
 
 .features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  background-color:#f4f4f4;
+}
+
+.podcasts {
   display: flex;
   align-items: center;
   padding: 2rem 0;
@@ -75,9 +84,9 @@
 }
 
 .featureImage {
-  height: 175px;
+  height: 100px;
   width: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .memberImage {

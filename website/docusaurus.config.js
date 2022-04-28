@@ -2,7 +2,7 @@
 
 
 // Replace 'project-blueprint' with {project name}
-const projectName = 'The Linux Foundation Podcast Project'
+const projectName = 'LF Community Podcasts'
 // Replace 'project-blueprint' with {project name}
 const projectSlug = 'linux-foundation-podcast-project'
 // Replace 'FINOS' with {name of copyright owner}
@@ -10,27 +10,29 @@ const copyrightOwner = 'The Linux Foundation'
 
 module.exports = {
   title: `${projectName}`,
-  tagline: `${projectName}`, 
+  tagline: `${projectName}`,
   url: 'https://finos.org',
   baseUrl: '/',
-  favicon: 'img/favicon/favicon-finos.ico',
+  favicon: 'img/favicon/cropped-favicon-80x80.png',
   projectName: `${projectName}`,
   organizationName: `${copyrightOwner}`,
   customFields: {
     repoUrl: `https://github.com/finos/${projectSlug}`,
+    ctaButton: 'CONTRIBUTE YOUR PODCAST EPISODE', 
+    ctaHeader: 'Become part of the Linux Foundation network. Add your episode.'
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   stylesheets: ['https://fonts.googleapis.com/css?family=Overpass:400,400i,700'],
   themeConfig: {
     navbar: {
-      title: `FINOS ${projectName}`,
+      title: `${projectName}`,
       logo: {
-        alt: 'FINOS Logo',
-        src: 'img/favicon/favicon-finos.ico',
+        alt: 'The Linux Foundation',
+        src: 'img/favicon/lf_logo.svg',
       },
       items: [
-        {to: 'docs/podcasts-intro', label: 'Podcasts', position: 'right'},
-        {to: 'docs/podcasts/podcast-index', label: 'Latest Podcasts', position: 'right'},
+        {to: 'docs/podcasts-intro', label: 'Introduction', position: 'right'},
+        {to: 'docs/podcasts/fast-times-at-sbom-high', label: 'Podcasts', position: 'right'},
         {to: 'docs/templates/podcast-template', label: 'Podcast Template', position: 'right'},
         {
           href: 'https://github.com/SeniorStoryteller/lf-podcast',
@@ -42,9 +44,9 @@ module.exports = {
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} ${projectName} - ${copyrightOwner}`,
       logo: {
-        alt: 'FINOS Logo',
-        src: 'img/favicon/favicon-finos.ico',
-        href: 'https://finos.org'
+        alt: 'The Linux Foundation',
+        src: 'img/favicon/lf_logo.svg',
+        href: 'https://linuxfoundation.org/'
       },
       links: [
         {
