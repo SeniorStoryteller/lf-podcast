@@ -36,23 +36,5 @@ export const podcasts = [
         podcast : "FINOS Open Source in Finance Podcast",
         podcastUrl : "https://open.spotify.com/show/431XdfX2fBdCUsopwh8td3",
         featured : true
-    },
-    {
-        title : "James McLeod's Test Video",
-        src : "https://user-images.githubusercontent.com/6029572/165135804-8e168c78-fa23-4a14-9e8e-a8cb535f5553.mp4",
-        type : "video",
-        description : "James' test for The Linux Foundation All Hands",
-        podcast : "Test Video",
-        podcastUrl : "",
-        featured : true
-    },
-    {
-        title : "Hello World",
-        src : "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1231124572&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        type : "soundcloud",
-        description : "New SC content In this episode of the of the podcast, James McLeod, FINOS Director of Community sits down with Eddie Knight, Managing Consultant at Synechron.",
-        podcast : "FINOS Open Source in Finance Podcast",
-        podcastUrl : "https://open.spotify.com/show/431XdfX2fBdCUsopwh8td3",
-        featured : true
-    },    
+    }    
 ];
