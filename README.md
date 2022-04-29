@@ -20,7 +20,7 @@ Find the latest Linux Foundation episodes and more below ...
 
 ## Listen in your Browser
 
-Listen to Linux Foundation podcasts in your browser by visiting the [LF Community Podcast Microsite](https://deploy-preview-3--fanciful-salmiakki-90bec2.netlify.app/).
+Listen to Linux Foundation podcasts in your browser by visiting the [LF Community Podcast Microsite](https://fanciful-salmiakki-90bec2.netlify.app/).
 
 ## What the project does
 

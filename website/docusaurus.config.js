@@ -18,7 +18,8 @@ module.exports = {
   organizationName: `${copyrightOwner}`,
   customFields: {
     repoUrl: `https://github.com/finos/${projectSlug}`,
-    ctaButton: 'CONTRIBUTE YOUR PODCAST EPISODE', 
+    ctaButton: 'CONTRIBUTE YOUR PODCAST EPISODE',
+    ctaUrl: 'https://github.com/mcleo-d/lf-podcast',
     ctaHeader: 'Become part of the Linux Foundation network. Add your episode.'
   },
   scripts: ['https://buttons.github.io/buttons.js'],
@@ -35,7 +36,7 @@ module.exports = {
         {to: 'docs/podcasts/fast-times-at-sbom-high', label: 'Podcasts', position: 'right'},
         {to: 'docs/templates/podcast-template', label: 'Podcast Template', position: 'right'},
         {
-          href: 'https://github.com/SeniorStoryteller/lf-podcast',
+          href: 'https://github.com/mcleo-d/lf-podcast',
           label: 'GitHub',
           position: 'right',
         }
